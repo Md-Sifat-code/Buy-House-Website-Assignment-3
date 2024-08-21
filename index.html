@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en" data-theme="light">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,10 +8,77 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="shortcut icon" href="./assets/article3.png" type="image/x-icon">
     <script src="https://kit.fontawesome.com/d7ab7394cb.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
 
     <title>Buy-House</title>
+    <style>
+        .manrope {
+            font-family: "Manrope", sans-serif;
+        }
+    </style>
 </head>
-<body>
-    
+
+<body class="manrope">
+    <!-- nav bar part -->
+    <section>
+        <div class="container mx-auto mt-7 sm:mt-10 md:mt-11">
+            <div class="navbar bg-base-100">
+                <div class="navbar-start flex justify-start items-center">
+                    <div class="flex justify-center items-center w-8 h-8 rounded-[32px] bg-[#ABEF5F]"><i class="fa-solid fa-arrow-right -rotate-45"></i></div>
+                    
+                    <a class="btn btn-ghost text-2xl md:text-4xl font-extrabold">Rinterio</a>
+                </div>
+                <div class="navbar-center hidden lg:flex">
+                    <ul class="menu menu-horizontal px-1">
+                        <li><a class="text-[16px] font-extrabold text-[#494949]">Home</a></li>
+                        <li><a class="text-[16px] font-normal text-[#737373]">Services</a></li>
+                        <li><a>Protfolio</a></li>
+                        <li><a>Blogs</a></li>
+                        <li><a>Contract Us</a></li>
+                    </ul>
+                </div>
+                <div class="navbar-end">
+                    <div class="dropdown">
+                        <div tabindex="0" role="button" class="btn btn-ghost sm:hidden">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+                                stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M4 6h16M4 12h8m-8 6h16" />
+                            </svg>
+                        </div>
+                        <!-- <ul tabindex="0"
+                            class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
+                            <li><a>Item 1</a></li>
+                            <li><a>Item 3</a></li>
+                        </ul> -->
+                    </div>
+                    <div class="hidden sm:flex justify-center items-center w-fit gap-5">
+                        <div class="border-box border-[1px] w-12 h-12 flex justify-center items-center bg-[#FFFFFF] rounded-[56px]"><i class="fa-solid fa-magnifying-glass"></i></div>
+                        <div class="border-box border-[1px] w-12 h-12 flex justify-center items-center bg-[#FFFFFF] rounded-[56px]"><i class="fa-sharp fa-solid fa-cart-shopping"></i></div>
+                        <a class="btn font-extrabold text-[20px] bg-[#ABEF5F]">Book Consult
+                            <div class="flex justify-center items-center w-8 h-8 rounded-[32px] bg-[#1C1C1C]"><i class="fa-solid fa-arrow-right text-white -rotate-45"></i></div>
+                        </a>
+                    </div>
+                    <!-- For Mid size device -->
+                    <div class="dropdown">
+                        <div tabindex="0" role="button" class="btn btn-ghost hidden sm:flex lg:hidden border-box border-[1px] w-12 h-12   bg-[#f0eded] rounded-[56px]">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+                                stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M4 6h16M4 12h8m-8 6h16" />
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <!-- Hero Section -->
+     <section></section>
+
 </body>
+
 </html>
